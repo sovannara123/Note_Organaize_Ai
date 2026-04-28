@@ -102,7 +102,7 @@ class NoteIngester :
     def _validate_not_empty (self , content :str) : 
 
         if not content.strip(): 
-            raise ValueError(f"File {self.file_path} Is Empty... ")
+            raise ValueError(f"File {self.file_path} Is Empty.... ")
 
 
 
