@@ -273,5 +273,5 @@ MIT License — Free to use, modify, and distribute.
 ## Contact
 
 Project:  Note Organize AI
-GitHub:   github.com/yourname/note-organize-ai
-Email:    hello@noteorganize.ai
+GitHub:   github.com/sovannara123/note-organize-ai
+Email:    chhounsovannara1@gmail.com
