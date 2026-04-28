@@ -91,7 +91,7 @@ Output: raw_text (string)
 FUNCTION load_file(file_path):
 
     STEP 1 — VALIDATE PATH
-    Check if file_path exists on disk.
+    Check if file_path exists on disk. 
     IF NOT EXISTS → raise FileNotFoundError
 
     STEP 2 — CHECK EXTENSION
