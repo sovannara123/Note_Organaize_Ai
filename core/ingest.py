@@ -19,7 +19,7 @@ Algorithm:
   3. Route to correct reader method
   4. Extract all text content
   5. Validate output is not empty
-  6. Return raw text string
+  6. Return raw text string           
 
 Error Cases:
   File not found    →  FileNotFoundError
@@ -62,7 +62,6 @@ class NoteIngester :
         if not os.path.isfile(self.file_path):
                 raise FileNotFoundError(f"File not found: {self.file_path}")
         
-
     # check validate file extensio
     def _validate_file_extension (self) -> str :
          
@@ -79,7 +78,7 @@ class NoteIngester :
     
 
     def _read_pdf_file(self) -> str :
-       
+
         pages_text = []
 
         with open(self.file_path, "rb") as file:
